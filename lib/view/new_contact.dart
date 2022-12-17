@@ -48,6 +48,9 @@ class _NewContactBookState extends State<NewContactBook> {
                   return null;
                 },
               ),
+              const SizedBox(
+                height: 16.0,
+              ),
               ElevatedButton(
                   onPressed: () {
                     if (key.currentState!.validate()) {
